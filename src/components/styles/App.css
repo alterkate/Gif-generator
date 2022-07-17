@@ -1,0 +1,98 @@
+* {
+  margin: 15px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: black;
+}
+
+h1{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.flexets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.text-field__group {
+  display: flex;
+  justify-content: center;
+
+}
+/* кнопка */
+.text-field__btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  /* background-color: rgb(183, 40, 109); */
+  border: 1px solid #b42fa6;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: background-color .15s ease-in-out;
+
+    background-image: linear-gradient(to right, #FBD3E9 0%, #BB377D  51%, #FBD3E9  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+.text-field__btn:hover {
+
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+
+}
+.text-field__group .text-field__input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  border: 1px solid #b42fa6;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 0 20px #eee;
+}
+.text-field__group .text-field__btn {
+  position: relative;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left-width: 0;
+  margin: 0;
+  box-shadow: 0 0 20px #eee;
+}
+
+input, select, textarea{
+  color: #ffffff;
+  background-color: black;
+}
+
+textarea:focus, input:focus {
+  color: #e597dd;
+}
+
+
+
+         
+
+
